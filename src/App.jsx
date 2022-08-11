@@ -4,11 +4,26 @@ import './App.css';
 function App() {
   return (
     <div className='app'>
-      <Joke setup='setup1' punchline='punchline1' />
-      <Joke setup='setup2' punchline='punchline2' />
-      <Joke setup='setup3' punchline='punchline3' />
-      <Joke setup='setup4' punchline='punchline4' />
-      <Joke setup='setup5' punchline='punchline5' />
+      <Joke
+        setup='I got my son a fridge for his birthday'
+        punchline={"I can't wait to see her face light up when she opens it"}
+      />
+      <Joke
+        setup='How did the hacker escape the police?'
+        punchline='He just ransomware!'
+      />
+      <Joke
+        setup={"Why don't pirates travel on mountain roads?"}
+        punchline='Scurvy.'
+      />
+      <Joke
+        setup='Why do bees stay in the hive in the winter?'
+        punchline='Swarm.'
+      />
+      <Joke
+        setup={"What's the best thing about Switzerland?"}
+        punchline={"I don't know, but the flag is a big plus!"}
+      />
     </div>
   );
 }

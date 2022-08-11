@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .joke__card {
   max-width: 320px;

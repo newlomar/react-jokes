@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app'>
       <Joke setup='setup1' punchline='punchline1' />
       <Joke setup='setup2' punchline='punchline2' />
       <Joke setup='setup3' punchline='punchline3' />

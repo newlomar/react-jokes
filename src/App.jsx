@@ -5,11 +5,11 @@ import jokes from './jokes.json';
 function App() {
   const jokesArray = jokes.jokes;
   return (
-    <div className='app'>
+    <ul className='app'>
       {jokesArray.map((joke) => (
-        <Joke key={joke.setup} setup={joke.setup} punchline={joke.punchline} />
+        <Joke key={joke.id} setup={joke.setup} punchline={joke.punchline} />
       ))}
-    </div>
+    </ul>
   );
 }
 

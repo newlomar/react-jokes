@@ -1,9 +1,11 @@
-export default function Joke({ setup, punchline }) {
+export default function Joke({ key, setup, punchline }) {
   return (
-    <section className=''>
+    <section className='' key={key}>
       <div className='joke__card'>
-        <p>{setup}</p>
-        <p>{punchline}</p>
+        {setup ? <p>{setup}</p> : ''}
+        <p>
+          <b>{punchline}</b>
+        </p>
       </div>
     </section>
   );

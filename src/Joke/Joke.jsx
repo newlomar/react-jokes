@@ -19,7 +19,7 @@ export default function Joke({ setup, punchline }) {
         <p>
           {isShown && <b>{punchline}</b>}
         </p>
-        <button onClick={toggle}>Show / Hide</button>
+        <button onClick={toggle}>{isShown ? "Hide Punchline" : "Show Punchline"}</button>
       </div>
     </section>
   );

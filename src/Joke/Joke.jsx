@@ -17,7 +17,7 @@ export default function Joke({ setup, punchline }) {
       <div className='joke__card'>
         {setup && <p>{setup}</p>}
         <p>
-          <b>{punchline}</b>
+          {isShown && <b>{punchline}</b>}
         </p>
         <button onClick={toggle}>Show / Hide</button>
       </div>
